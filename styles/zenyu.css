@@ -349,6 +349,7 @@ button:hover{
     opacity: 0;
     background: rgb(0, 0, 0);
     z-index: 1;
+    background-color: black;
   }
 
 .overlay:hover{
@@ -412,9 +413,23 @@ p{
     display: inline;
 }
 
+.over2{
+    display: block;
+    margin-top: 0px;
+    margin-left:511px;
+}
+
+
 
 @media only screen and (max-width: 576px) {
 
+    .over2{
+        display: none;
+    }
+
+    #overlay2{
+        top: 97;
+    }
     .top-header {
         position: absolute;
         width: 100%;
@@ -562,6 +577,16 @@ p{
         background: rgb(0, 0, 0);
         z-index: 1;
     }
+    
+    .overlay-mob{
+        top: 97;
+        margin-left: 0px;
+    }
+
+    .overlay-mobi{
+        top: 192;
+        left: 0px;
+    }
 
     .center-left {
         position: absolute;
@@ -616,5 +641,17 @@ p{
     #txt{
         display: none;
     }
+
+    .top-left {
+        position: relative;
+        top: 16;
+        margin-left: 44px;
+        margin-bottom: 8px;
+    }
+
+    .container{
+        height: 0px;
+    }
+    
 
 }
