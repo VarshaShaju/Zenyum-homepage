@@ -170,7 +170,7 @@ a:hover{
     padding: 0px 40px;
 }
 
-.layout h2{
+.lay{
     line-height: 1.25;
     color: #282829;
     font-weight: 400;
@@ -419,9 +419,29 @@ p{
     margin-left:511px;
 }
 
+.padding{
+    line-height: 1.25;
+    color: #282829;
+    font-weight: 400;
+    padding-top: 450px;
+    display: block;
+    font-size: 28px;
+    font-family: system-ui; 
+}
+
 
 
 @media only screen and (max-width: 576px) {
+
+    .padding{
+        padding-top: 300px;
+        line-height: 1.25;
+        color: #282829;
+        font-weight: 400;
+        display: block;
+        font-size: 20px;
+        font-family: system-ui;
+    }
 
     .over2{
         display: none;
@@ -539,7 +559,7 @@ p{
         padding: 0px;
     }
 
-    .layout h2 {
+    .lay {
         line-height: 1.25;
         color: #282829;
         font-weight: 400;
