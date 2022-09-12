@@ -423,6 +423,10 @@ p{
     margin-left:511px;
 }
 
+.over3{
+    left:900px;
+}
+
 .padding{
     line-height: 1.25;
     color: #282829;
@@ -483,9 +487,10 @@ p{
 
 @media only screen and (max-width: 576px) {
 
-    /* a:hover{
-    margin-top: 190px
-    } */
+    .over3{
+        left: 0;
+        top: 192;
+    }
 
     a#hov2:hover{
         margin-top: 750px;
@@ -617,9 +622,7 @@ p{
         font-family: system-ui;
     }
 
-    .over2{
-        display: none;
-    }
+
 
     #overlay2{
         top: 97;
