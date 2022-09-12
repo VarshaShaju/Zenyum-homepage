@@ -108,7 +108,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: -5px;
 }
 [dir='rtl'] .slick-next
 {
@@ -224,4 +224,18 @@
     background-image: url("/home/varsha/Zenyum/images-desktop/􀯽 (3).png");
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .slick-prev {
+        left: -75px;
+        top: 120px;
+    }
+
+    .slick-next {
+        right: -75px;
+        top: 120px;
+    }
+
 }
