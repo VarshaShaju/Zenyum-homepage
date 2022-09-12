@@ -163,7 +163,7 @@ a:hover{
     background: #FFFFFF;
     color: black;
     border-radius: 48px;
-    margin-left: 0px;
+    /* margin-left: 0px; */
     margin-top: 222px;
 }
 
@@ -476,8 +476,38 @@ p{
     left: 850;
 }
 
+.foot-margin{
+    margin-left: 158px;
+}
+
 
 @media only screen and (max-width: 576px) {
+
+    /* a:hover{
+    margin-top: 190px
+    } */
+
+    a#hov2:hover{
+        margin-top: 750px;
+    }
+
+    a#hov1:hover{
+        margin-top: 190px;
+    }
+
+    .footer{
+        margin-top: 40px;
+        height: 110%;
+    }
+
+    .foot-flex{
+        flex-wrap: wrap;
+        margin-left: 18px;
+    }
+
+    .foot-margin{
+        margin-left: 0px;
+    }
 
     .marg{
         margin-top: 200px;
@@ -491,9 +521,18 @@ p{
         margin-top: 700px;
     }
 
-    .pos4{
+    .pos4 {
         padding-top: 200px;
+        padding-left: 15px;
     }
+
+    /* #hov2.posx{
+        display: none;
+    }
+
+    #hov2.position2{
+        display: none;
+    } */
 
     .posx{
         margin-top: 200px;
