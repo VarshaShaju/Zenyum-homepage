@@ -468,16 +468,48 @@ p{
     display: none;
 }
 
+.marg{
+    margin-top: 220px;
+}
+
+.pos3 {
+    left: 850;
+}
+
 
 @media only screen and (max-width: 576px) {
 
+    .marg{
+        margin-top: 200px;
+    }
+
+    .btn{
+        margin-top: 140px;
+    }
+
+    .pos3{
+        margin-top: 700px;
+    }
+
+    .pos4{
+        padding-top: 200px;
+    }
+
+    .posx{
+        margin-top: 200px;
+    }
+
+    .position2{
+        margin-left: 0px;
+        margin-top: 560px;
+    }
 
     #img5{
         display: block;
     }
 
     .pos{
-        top: 40;
+        top: 60;
         left: 24;
     }
 
