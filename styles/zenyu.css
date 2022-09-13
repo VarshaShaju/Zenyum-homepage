@@ -32,14 +32,12 @@
 }
 
 .header{
-    /* Header */
     box-sizing: border-box;
     width: 100%;
     height: 112px;
     background: rgba(250, 250, 250, 0.75);
     border-bottom: 1px solid #E6E6E6;
     backdrop-filter: blur(16px);
-    /* Note: backdrop-filter has minimal browser support */
     padding-top: 20px;
 }
 
@@ -61,7 +59,6 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    /* padding-top: 20px; */
     color: #282829;
 }
 
@@ -72,7 +69,6 @@
 
 .image{
     width:100%;
-    /* position: relative; */
 }
 
 #imgmob{
@@ -111,13 +107,7 @@
     text-align: center;
     width: 100%;
     height: 112px;
-    /* padding-right: 15px;
-    padding-left: 15px; */
     padding-top: 30px;
-    /* margin-right: auto;
-    margin-left: auto;
-    align-items: center;
- */
 }
 
 .decor{
@@ -147,13 +137,6 @@
 
 .btn-text:hover {color:white}
 
-/* .resultContainer{
-    display: none;
-}
-.resultContainer:hover{
-    display: inline;
-} */
-
 .btn-text{
     font-style: normal;
     font-weight: 400;
@@ -171,7 +154,6 @@ a:hover{
     background: #FFFFFF;
     color: black;
     border-radius: 48px;
-    /* margin-left: 0px; */
     margin-top: 222px;
 }
 
@@ -204,9 +186,6 @@ a:hover{
     z-index: 0;
 }
 
-/* .layout-img:hover{opacity: 0.7;} */
-
-
 .containr {
     display: flex;
     width: 33.33%;
@@ -222,22 +201,21 @@ a:hover{
   top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
-  /* z-index: 2;   */
 }
+
 .center-right{
   position: absolute;
   top: 50%;
   right: -125%;
   transform: translate(-50%, -50%);
-  /* z-index: 2; */
 }
+
 .center{
   position: absolute;
   top: 50%;
   left: 107%;
   width: 200px;
   transform: translate(-50%, -50%);
-  /* z-index: 2; */
 }
 
 .font-s{
@@ -250,15 +228,8 @@ a:hover{
     z-index: 1;
 }
 
-/* .product{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 25%;
-} */
-
 .top-left {
     position: relative;
-    /* top: 100px; */
     margin-left: 250px;
     margin-bottom: 16px;
   }
@@ -379,10 +350,47 @@ p{
     padding-right:8px;
 }
 
-/* .slider{
-    display: flex;
-    width:83%
-} */
+.padding-text{
+    padding-top: 150px;
+}
+
+.padding-box{
+    padding-right:100px ;
+}
+
+.border{
+    border-radius: 20px;
+}
+
+.margins{
+    margin-left: 44px;
+}
+
+.margin2{
+    margin-top: 24px;
+}
+
+.best{
+    color: #2CAAE2; 
+    font-size:16px; 
+    margin-top: 16px;
+}
+
+.smile{
+    padding-top: 10px; 
+    font-weight: 700;
+    color: #282829;
+}
+
+div#assessment {
+    margin-top: 40px;
+    width: 160;
+}
+
+.mob-img{
+    border-radius: 20px;
+    margin-top: 72px;
+}
 
 .arr{
     position: absolute;
@@ -543,14 +551,6 @@ p{
         padding-left: 15px;
     }
 
-    /* #hov2.posx{
-        display: none;
-    }
-
-    #hov2.position2{
-        display: none;
-    } */
-
     .posx{
         margin-top: 200px;
     }
@@ -672,9 +672,6 @@ p{
         padding-right: 15px;
         padding-left: 15px;
         padding-top: 15px;
-        /* margin-right: auto;
-        margin-left: auto;
-        align-items: center; */
     }
 
     .logoimg{
@@ -704,12 +701,6 @@ p{
        visibility: hidden;
     }
 
-    /* .image{
-        background-image: url("/home/varsha/Zenyum/images-mobile/HOMEPAGE-WATERFLOSSER-BANNER-MOBILE.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 520px;
-    } */
     #img1{
        display: none;
     }
@@ -803,7 +794,6 @@ p{
         left: 130%;
         width: 300;
         transform: translate(-50%, -50%);
-        /* z-index: 2; */
     }
 
     .font-s {
@@ -821,7 +811,6 @@ p{
         top: 82%;
         right: -115%;
         transform: translate(-50%, -50%);
-        /* z-index: 2; */
     }
 
     .center {
@@ -830,7 +819,6 @@ p{
         left: 72%;
         width: 200px;
         transform: translate(-50%, -50%);
-        /* z-index: 2; */
     }
     
     #aligners1{
