@@ -157,6 +157,11 @@ a:hover{
     margin-top: 222px;
 }
 
+.padding-img{
+    margin-right: 16px; 
+    width: 170px;
+}
+
 .layout{
     margin-left: auto;
     margin: 0px 124.5px;
@@ -266,7 +271,6 @@ a:hover{
 
 .img-style{
     border-radius: 20px; 
-    margin-right: 16px;
 }
 
 .footer{
@@ -392,6 +396,10 @@ div#assessment {
     margin-top: 72px;
 }
 
+.hov-effect{
+    width:50%
+}
+
 .arr{
     position: absolute;
     z-index: 1;
@@ -447,7 +455,7 @@ div#assessment {
     line-height: 1.25;
     color: #282829;
     font-weight: 400;
-    padding-top: 450px;
+    padding-top: 400px;
     display: block;
     font-size: 28px;
     font-family: system-ui; 
