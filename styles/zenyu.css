@@ -67,8 +67,14 @@
     padding-top: 44px;
 }
 
-.image{
-    width:100%;
+.image {
+    background-image: url(../images-desktop/HOMEPAGE-WATERFLOSSER-BANNER-DESKTOP.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 640px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 #imgmob{
@@ -79,27 +85,36 @@
     width:100%;
 }
 
-.centered {
+/* .centered {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;  
     font-family: sans-serif;
-  }
+  } */
 
-  .pos{
+.pos{
     position: absolute;
     top:150;
     left:80;  
     font-family: sans-serif;
   }
 
-.font{
+h1{
     font-size: 40px;
+    line-height: 56px;
     font-family: sans-serif;
     font-weight: 700;
     width: 500px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+
+.wfcat{
+    color: white;
+    padding-bottom: 88;
     text-align: center;
 }
 
@@ -118,6 +133,8 @@
     margin-left: 45px;
 }
 
+
+
 .btn{
     display: flex;
     flex-direction: row;
@@ -125,10 +142,8 @@
     align-items: center;
     padding: 8px 24px;
     gap: 8px;
-
     width: 111px;
     height: 40px;
-    margin-top: 170px;
     background: #FFFFFF;
     border-radius: 48px;
 }
@@ -348,14 +363,14 @@ button:hover{
     padding-left: 15px; 
 }
 
-p{
+.padding-img p{
     text-decoration-line: line-through;
     color: #999999; 
     padding-right:8px;
 }
 
 .padding-text{
-    padding-top: 150px;
+    padding-bottom: 40px;
 }
 
 .padding-box{
@@ -426,7 +441,7 @@ div#assessment {
 }
 
 .font-wid{
-    padding-top: 100px;
+    padding-bottom: 8px;
 }
 
 #aligners1{
@@ -497,7 +512,12 @@ div#assessment {
 }
 
 .marg{
-    margin-top: 220px;
+    margin-left: 193;
+    margin-bottom: 24;
+}
+
+.marg2{
+    margin-top: 170px;
 }
 
 .pos3 {
@@ -725,13 +745,12 @@ div#assessment {
         width: 100%;
     }
 
-    .centered{
+    .wfcat{
         position: absolute;
-        top: 340;
+        /* top: 340;
         justify-content: center;
         left: 50%;
-        transform: translate(-50%, -50%);
-
+        transform: translate(-50%, -50%); */
         font-family: system-ui;
         align-content: center;
         text-align: center;
