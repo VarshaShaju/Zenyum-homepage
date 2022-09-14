@@ -49,7 +49,7 @@
     text-align: center;
 }
 
-.header-options{
+.topnav--options{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -67,8 +67,19 @@
     padding-top: 44px;
 }
 
+.topnav__content {
+    text-align: center;
+    width: 100%;
+    height: 112px;
+    padding-top: 30px;
+}
+
+.wf{
+    height: 640px;
+    width: 100%;
+}
+
 .image {
-    background-image: url(../images-desktop/HOMEPAGE-WATERFLOSSER-BANNER-DESKTOP.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 640px;
@@ -107,23 +118,39 @@ h1{
     font-family: sans-serif;
     font-weight: 700;
     width: 500px;
+    margin-left: 660;
     text-align: center;
     justify-content: center;
     padding-bottom: 16px;
 }
 
 .wfcat{
+    position: relative;
+    bottom: 350;
     color: white;
     padding-bottom: 88;
     text-align: center;
 }
 
-.container {
-    text-align: center;
-    width: 100%;
-    height: 112px;
-    padding-top: 30px;
+
+.think{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 640px;
+    width: 1504;
+    border-radius: 20px;
+    padding-top: 80px;
+    bottom: 680;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 30px;
 }
+
+.think--border{
+    border-radius: 20px;
+}
+
 
 .decor{
     text-decoration-line: underline; 
@@ -177,10 +204,9 @@ a:hover{
     width: 170px;
 }
 
-.layout{
-    margin-left: auto;
-    margin: 0px 124.5px;
-    padding: 0px 40px;
+.container{
+    margin-left:165px;
+    margin-right:165px;
 }
 
 .lay{
@@ -213,27 +239,26 @@ a:hover{
     text-align: center;
     color: white;
     margin-top: 24px; 
-    margin-left:165px;
 }
 
 .center-left{
   position: absolute;
   top: 50%;
-  left: 35%;
+  left: 210;
   transform: translate(-50%, -50%);
 }
 
 .center-right{
   position: absolute;
   top: 50%;
-  right: -125%;
+  right: -820;
   transform: translate(-50%, -50%);
 }
 
 .center{
   position: absolute;
   top: 50%;
-  left: 107%;
+  left: 650;
   width: 200px;
   transform: translate(-50%, -50%);
 }
@@ -250,7 +275,7 @@ a:hover{
 
 .top-left {
     position: relative;
-    margin-left: 250px;
+    margin-left: 80px;
     margin-bottom: 16px;
   }
 
@@ -265,8 +290,6 @@ a:hover{
 .bar{
     position: relative;
     display: flex;
-    margin-left: 158px;
-    margin-right: 100px;
 }
 
 .textbar{
@@ -297,8 +320,8 @@ a:hover{
 }
 
 .foot-flex{
-    position: absolute;
     display: flex;
+    width: 100%;
 }
 
 .foot-style{
@@ -381,9 +404,6 @@ button:hover{
     border-radius: 20px;
 }
 
-.margins{
-    margin-left: 44px;
-}
 
 .margin2{
     margin-top: 24px;
@@ -470,7 +490,7 @@ div#assessment {
     line-height: 1.25;
     color: #282829;
     font-weight: 400;
-    padding-top: 400px;
+    padding-top: 40px;
     display: block;
     font-size: 28px;
     font-family: system-ui; 
@@ -478,7 +498,6 @@ div#assessment {
 
 .margin{
     margin-top: 24px; 
-    margin-left: 160px;
 }
 
 .img-align{
@@ -512,7 +531,7 @@ div#assessment {
 }
 
 .marg{
-    margin-left: 193;
+    margin-left: 860;
     margin-bottom: 24;
 }
 
@@ -532,11 +551,74 @@ div#assessment {
     margin-left: 30px;
 }
 
+#sec-mobile{
+    display: none;
+}
+
+#sec-desktop{
+    display: block;
+}
+
+#think-desktop{
+    display: block;
+}
+
+#think-mobile{
+    display: none;
+}
+
+.ts{
+    height: 640px;
+    margin-top: 72px;
+    border-radius: 20px;
+}
+
 
 @media only screen and (max-width: 576px) {
 
+    .ts{
+        height: 520px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+
+    #think-desktop{
+        display: none;
+    }
+
+    #think-mobile{
+        display: block;
+    }
+
+    .think {
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        height: 0px;
+        bottom: 520;
+        /* width: 1504; */
+        width: 375;
+        border-radius: 20px;
+        padding-top: 0px;
+        align-items: flex-end;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .wf {
+        height: 528px;
+        width: 100%;
+    }
+
+    #sec-desktop{
+        display: none;
+    }
+
+    #sec-mobile{
+        display: block;
+    }
+
     .image {
-        background-image: url(../images-mobile/HOMEPAGE-WATERFLOSSER-BANNER-MOBILE.png);
         background-repeat: no-repeat;
         background-position: center;
         height: 520px;
@@ -550,6 +632,7 @@ div#assessment {
         line-height: 40px;
         font-family: sans-serif;
         font-weight: 700;
+        margin-left: 0px;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -671,11 +754,9 @@ div#assessment {
 
     .margin{
         margin-top: 24px; 
-        margin-left: 16px;
     }
 
     .padding{
-        padding-top: 300px;
         line-height: 1.25;
         color: #282829;
         font-weight: 400;
@@ -708,20 +789,16 @@ div#assessment {
 
     .topnav {
         height: 88px;
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
-    .header-options{
+    .topnav--options{
         display: none;
     }
 
     .container {
-        text-align: center;
-        width: 100%;
-        height: 112px;
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-top: 15px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     .logoimg{
@@ -769,13 +846,11 @@ div#assessment {
 
     .wfcat{
         position: absolute;
-        /* top: 340;
-        justify-content: center;
-        left: 50%;
-        transform: translate(-50%, -50%); */
+        left: 30;
         font-family: system-ui;
         align-content: center;
         text-align: center;
+        padding-bottom: 48;
     }
 
     .font-wid{
@@ -812,7 +887,6 @@ div#assessment {
         text-align: center;
         color: white;
         margin-top: 24px;
-        margin-left: 16px;
     }
 
     .overlay {
@@ -839,7 +913,7 @@ div#assessment {
     .center-left {
         position: absolute;
         top: 15%;
-        left: 130%;
+        left: 150;
         width: 300;
         transform: translate(-50%, -50%);
     }
@@ -857,14 +931,14 @@ div#assessment {
     .center-right {
         position: absolute;
         top: 82%;
-        right: -115%;
+        right: -140;
         transform: translate(-50%, -50%);
     }
 
     .center {
         position: absolute;
         top: 50%;
-        left: 72%;
+        left: 80;
         width: 200px;
         transform: translate(-50%, -50%);
     }
@@ -891,12 +965,10 @@ div#assessment {
     .top-left {
         position: relative;
         top: 16;
-        margin-left: 44px;
+        margin-left: 0px;
+        left: 24px;
         margin-bottom: 8px;
-    }
-
-    .container{
-        height: 0px;
+        width: 375;
     }
     
     .marg1:hover {
