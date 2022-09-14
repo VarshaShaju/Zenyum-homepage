@@ -535,6 +535,31 @@ div#assessment {
 
 @media only screen and (max-width: 576px) {
 
+    .image {
+        background-image: url(../images-mobile/HOMEPAGE-WATERFLOSSER-BANNER-MOBILE.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 520px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 40px;
+        font-family: sans-serif;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 16px;
+    }
+
+    .marg2{
+        margin-top: 140px;
+    }
+
     .over3{
         left: 0;
         top: 192;
@@ -562,12 +587,9 @@ div#assessment {
         margin-left: 0px;
     }
 
-    .marg{
-        margin-top: 200px;
-    }
-
-    .btn{
-        margin-top: 140px;
+    .marg {
+        margin-left: 92;
+        margin-bottom: 24;
     }
 
     .pos3{
@@ -758,7 +780,6 @@ div#assessment {
 
     .font-wid{
         width: 100%;
-        padding-top: 100px;
     }
 
     .layout {
