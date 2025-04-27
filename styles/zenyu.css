@@ -207,6 +207,9 @@ a:hover{
 .container{
     margin-left:42px;
     margin-right:42px;
+}
+
+.container-flow{
     overflow-x: hidden;
 }
 
@@ -493,7 +496,7 @@ div#assessment {
     line-height: 1.25;
     color: #282829;
     font-weight: 400;
-    padding-top: 40px;
+    padding-top: 142px;
     display: block;
     font-size: 28px;
     font-family: system-ui; 
