@@ -1,10 +1,10 @@
-**Zenyum Homepage - Sample E-commerce Landing Page**
+# **Zenyum Homepage - Sample E-commerce Landing Page**
 
 This repository contains the initial layout of a landing page for Zenyum, a Singapore-based brand offering oral hygiene products. The landing page was developed during the early stages of my time at the company and serves as a sample layout for the e-commerce website.
 
 
 
-**Overview**
+## **Overview**
 
 Project Name: Zenyum Homepage
 
@@ -16,7 +16,7 @@ Role: This project represents my entry-level work during my time at Zenyum.
 
 
 
-**Features**
+## **Features**
 
 Basic Layout: The landing page showcases a basic e-commerce website layout with sections for products and features.
 
